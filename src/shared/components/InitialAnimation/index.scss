@@ -1,0 +1,48 @@
+.initial_animation{
+  position: fixed;
+  min-height: 450dvh;
+  width: 100vw;
+  background-color: black;
+  z-index: 100;
+  color: white;
+
+  &__container{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+      font-size: 2rem;
+      font-weight: 100;
+      font-family: system-ui;
+
+      b{
+        font-weight: 500;
+      }
+    }
+  }
+
+  &--closed {
+    //animation: infinite init_animation_close 3s cubic-bezier(0.4, 0, 1, 1);
+  }
+}
+
+@keyframes init_animation_close {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@keyframes logo_animation_close {
+  0%{
+    transform: scale(5) translateY(0px);
+  }
+  100%{
+    transform: scale(20) translateY(-10px);
+  }
+}

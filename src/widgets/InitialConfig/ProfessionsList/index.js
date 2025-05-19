@@ -1,0 +1,1 @@
+export { ProfessionsList } from './ui';

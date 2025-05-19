@@ -1,0 +1,35 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  VITE_API_HOST: https://cw19869-django-x50qa.tw1.ru/api/
+
+build-job:
+  stage: build
+  image: node
+  script:
+    - echo "VITE_API_HOST=$VITE_API_HOST" > .env
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build/
+
+deploy-job:
+  stage: deploy
+  image: debian:latest
+  script:
+    - echo "Running deployment..."
+    - apt-get update -qq && apt-get install -y -qq lftp
+    - lftp -c "
+      set ftp:ssl-allow no;
+      open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST;
+      lcd ./build;
+      cd ./tested/public_html;
+      mirror --reverse --delete --parallel=10 --exclude .htaccess . .;
+      "
+  only:
+    - main
+  dependencies:
+    - build-job

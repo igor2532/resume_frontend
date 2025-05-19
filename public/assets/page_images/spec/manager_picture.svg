@@ -1,0 +1,16 @@
+<svg width="230" height="230" viewBox="0 0 230 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="230" height="230" fill="#57D7FF"/>
+<path d="M190 230C190 230 147.82 230 101.429 230C55.0367 230 22 230 22 230C22 183.384 22 126 101.429 126C190 126 190 183.384 190 230Z" fill="white"/>
+<path d="M159 79C159 79 135.271 79 106 79C76.7289 79 53 79 53 79C53 49.7289 76.7289 26 106 26C135.271 26 159 49.7289 159 79Z" fill="black"/>
+<circle cx="106" cy="79" r="47" fill="white"/>
+<rect x="148.823" y="134.5" width="65" height="76" rx="3.5" fill="white" stroke="#281650" stroke-width="3"/>
+<rect x="85" y="95" width="24" height="12" rx="6" fill="black"/>
+<rect x="153" y="62" width="10" height="30" rx="5" fill="black"/>
+<path d="M87 104C65.8 104 55.5 87.3333 53 79H59C66.2 95.4 80.6667 98.5 87 98V104Z" fill="black"/>
+<path d="M123.151 146.116L167.203 196.733L168.824 204.869L161.181 201.999L117.116 151.368L123.151 146.116Z" fill="white" stroke="#281650" stroke-width="3"/>
+<rect x="159" y="148" width="46" height="4" fill="#281650"/>
+<rect x="159" y="157" width="46" height="4" fill="#281650"/>
+<rect x="159" y="166" width="46" height="4" fill="#281650"/>
+<rect x="159" y="175" width="46" height="4" fill="#281650"/>
+<rect x="159" y="184" width="46" height="4" fill="#281650"/>
+</svg>

@@ -1,0 +1,161 @@
+.cv_container{
+    background-color: #E7FFCF;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+    height: 1131px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr;
+    gap: 0;
+}
+
+.cv_side_info{
+    color: #E7FFCF;
+    background-color: #3d8000;
+    padding: 20px;
+    grid-row: 1 / 3;
+}
+
+.avatar{
+    width: 100%;
+}
+
+.cv_main_info{
+    background-color: #E7FFCF;
+    grid-row: 2 / 3;
+    padding: 20px;
+}
+
+.cv_head_data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #3d8000;
+}
+
+.cv_fio{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cv_post{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cv_salary{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cv_conditions{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.cv_conditions__item{
+    padding: 5px;
+    border-radius: 1px;
+    background-color: #3d8000;
+    color: #E7FFCF;
+}
+
+/*MAIN_SIDE*/
+
+.cv_main{
+    display: flex;
+}
+
+.cv_side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cv_side h3{
+    margin: 10px 0 5px 0;
+}
+
+.cv_contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.cv_hards{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.cv_hard{
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 1px;
+    background-color: #254a00;
+}
+
+.cv_jobs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cv_jobs__item{
+    display: flex;
+    gap: 5px;
+    /*background-color: #57AE00;*/
+    background-color: #3d8000;
+    color: #E7FFCF;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.cv_jobs__item__meta{
+    min-width: 40%;
+}
+
+.cv_jobs__item__descr{
+    display: flex;
+    align-items: center;
+}
+
+.cv_about{
+    margin-top: 30px;
+}
+
+.cv_about p{
+    font-size: 16px; /* Размер текста */
+    line-height: 1.6; /* Высота строки для лучшей читаемости */
+}
+
+.devider{
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #000000;
+    right: 0;
+    bottom: calc(50% - 2px);
+    bottom: 0;
+}
+
+.donne2{
+    width: 220px;
+    height: 100%;
+    position: absolute;
+    background-color: #27711c;
+    opacity: 0.2;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}

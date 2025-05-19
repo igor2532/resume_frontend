@@ -1,0 +1,61 @@
+.constructor_page{
+  width: 100vw;
+  height: calc(100dvh);
+  display: flex;
+
+  &__side{
+    width: 25vw;
+    min-width: 150px;
+    max-width: 500px;
+    background: #ffffff;
+    transition: 0.3s;
+    overflow: auto;
+
+    &__controls{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      width: 100%;
+      background-color: inherit;
+      position: sticky;
+      top: 0;
+      padding: 20px;
+      z-index: 4;
+      justify-content: space-between;
+    }
+
+    &__editor {
+      padding: 0 20px 20px 20px;
+    }
+
+    .uiXeny-input, .uiXeny-textarea {
+      width: 100%;
+    }
+
+    &__services_buttons{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+
+    @media screen and (max-width: 900px){
+      position: absolute;
+      height: 100dvh;
+      transform: translateX(-100%);
+    }
+  }
+
+  &__content_wrapper{
+    height: 100dvh;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f1f3f4;
+    overflow: auto;
+
+    @media screen and (max-width: 900px){
+      padding: 0;
+      transition: 0.3s;
+    }
+  }
+}

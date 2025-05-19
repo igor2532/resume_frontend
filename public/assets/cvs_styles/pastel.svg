@@ -1,0 +1,28 @@
+<svg width="186" height="226" viewBox="0 0 186 226" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="1.3" width="185" height="224" fill="#E7FFCF" stroke="#D2D2D2"/>
+<rect x="17" y="13.8" width="50" height="60" rx="4" fill="#57AE00"/>
+<ellipse cx="43" cy="75.8" rx="21" ry="24" fill="#E7FFCF"/>
+<circle cx="42" cy="39.8" r="15" fill="#E7FFCF"/>
+<rect x="90" y="22.8" width="83" height="7" fill="#57AE00"/>
+<rect x="90" y="44.8" width="83" height="7" fill="#57AE00"/>
+<rect x="90" y="66.8" width="83" height="7" fill="#57AE00"/>
+<circle cx="21.5" cy="103.3" r="4.5" fill="#57AE00"/>
+<circle cx="21.5" cy="118.3" r="4.5" fill="#57AE00"/>
+<circle cx="21.5" cy="133.3" r="4.5" fill="#57AE00"/>
+<rect x="29" y="101.8" width="43" height="3" fill="#57AE00"/>
+<rect x="29" y="116.8" width="43" height="3" fill="#57AE00"/>
+<rect x="29" y="131.8" width="43" height="3" fill="#57AE00"/>
+<rect x="94" y="102.8" width="75" height="103" fill="#E7FFCF" stroke="#57AE00" stroke-width="8"/>
+<rect x="17" y="149.8" width="55" height="2" fill="#57AE00"/>
+<rect x="17" y="167.8" width="55" height="2" fill="#57AE00"/>
+<rect x="17" y="155.8" width="55" height="2" fill="#57AE00"/>
+<rect x="17" y="173.8" width="55" height="2" fill="#57AE00"/>
+<rect x="17" y="161.8" width="55" height="2" fill="#57AE00"/>
+<rect x="17" y="179.8" width="55" height="2" fill="#57AE00"/>
+<rect x="17" y="202.8" width="55" height="7" fill="#57AE00"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M131.5 187.25C116.588 187.25 104.5 174.945 104.5 159.766C104.5 144.707 113.117 127.133 126.563 120.849C128.13 120.116 129.815 119.75 131.5 119.75V187.25Z" fill="#57AE00"/>
+<path opacity="0.3" d="M136.437 120.849C134.87 120.116 133.185 119.75 131.5 119.75V143.375L146.457 128.418C143.545 125.219 140.178 122.597 136.437 120.849Z" fill="#57AE00"/>
+<path opacity="0.4" d="M131.5 143.375V161.938L153.823 139.615C151.892 135.496 149.408 131.661 146.457 128.418L131.5 143.375Z" fill="#57AE00"/>
+<path opacity="0.6" d="M131.5 178.812L157.862 152.45C157.12 148.095 155.745 143.715 153.823 139.614L131.5 161.937V178.812Z" fill="#57AE00"/>
+<path opacity="0.7" d="M157.862 152.45L131.5 178.812V187.25C146.412 187.25 158.5 174.945 158.5 159.766C158.5 157.373 158.282 154.915 157.862 152.45Z" fill="#57AE00"/>
+</svg>
